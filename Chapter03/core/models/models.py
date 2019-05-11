@@ -18,4 +18,4 @@ RequestAuth = namedtuple('RequestAuth', ['oauth_token',
                                          'oauth_token_secret',
                                          'user_id',
                                          'screen_name',
-                                         'x_auth_expires', ])
+                                         'x_auth_expires', ], defaults=(None, ) * 5)
